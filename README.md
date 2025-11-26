@@ -43,7 +43,6 @@ flowchart TD
     style U fill:#7c3aed,color:white,font-weight:bold
 
 
-
 graph TD
     E0[Этап 0: Идея] --> E1
     E1[Этап 1: Прототип] --> E2
