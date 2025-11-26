@@ -44,7 +44,7 @@ flowchart TD
     style U fill:#7c3aed,color:white,font-weight:bold
 
 
-graph TD
+flowchart TD
     E0[Этап 0: Идея] --> E1
     E1[Этап 1: Прототип] --> E2
     E2[Этап 2: Геотеги] --> E3
@@ -64,7 +64,7 @@ graph TD
 
 
 
-graph TD
+flowchart TD
     A[Пользователь нажимает кнопку] --> B{Режим?}
     B -->|Видео| C[Открыть MP4 + SRT]
     B -->|Фото| D[Сканировать папку]
