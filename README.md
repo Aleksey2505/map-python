@@ -582,9 +582,8 @@ gantt
    - Автооткрытие результатов в браузере
 
 
-mermaid```
-
-   graph TD
+```mermaid
+graph TD
     A[Действие пользователя] --> B{Тип действия}
     
     B --> C[Нажал кнопку без модели YOLO]
@@ -618,10 +617,10 @@ mermaid```
     style I1 fill:#e3f2fd
     style J1 fill:#e8f5e8
     style K1 fill:#e8f5e8
+```
 
-
-
-    graph LR
+```mermaid
+graph LR
     subgraph "Обработка пользовательских действий"
         A1[Ошибки ввода] --> A2[Предупреждения]
         B1[Проблемы доступа] --> B2[Обработка ошибок]
@@ -642,5 +641,4 @@ mermaid```
     style B3 fill:#ffcc80
     style C3 fill:#90caf9
     style D3 fill:#a5d6a7
-
 ```
