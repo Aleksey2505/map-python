@@ -42,8 +42,8 @@ flowchart TD
     style E fill:#dc2626,color:white
     style R fill:#059669,color:white
     style U fill:#7c3aed,color:white,font-weight:bold
-
-
+```
+```mermaid
 flowchart TD
     E0[Этап 0: Идея] --> E1
     E1[Этап 1: Прототип] --> E2
@@ -60,10 +60,10 @@ flowchart TD
     E5 --> M5[PySide6 + QSettings]
     E6 --> M6[pandas + logging]
     E7 --> M7[draw_bounding_boxes]
+```
 
 
-
-
+```mermaid
 flowchart TD
     A[Пользователь нажимает кнопку] --> B{Режим?}
     B -->|Видео| C[Открыть MP4 + SRT]
@@ -97,7 +97,7 @@ flowchart TD
     
     T --> V[Открыть карту в браузере]
     U --> V
-
+```
 
 
 
