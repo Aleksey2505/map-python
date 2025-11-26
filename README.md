@@ -582,6 +582,7 @@ gantt
    - Автооткрытие результатов в браузере
 
 
+mermaid```
 
    graph TD
     A[Действие пользователя] --> B{Тип действия}
@@ -641,3 +642,5 @@ gantt
     style B3 fill:#ffcc80
     style C3 fill:#90caf9
     style D3 fill:#a5d6a7
+
+```
