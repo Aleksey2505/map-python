@@ -43,19 +43,19 @@ flowchart TD
     style R fill:#059669,color:white
     style U fill:#7c3aed,color:white,font-weight:bold
 ```
-```mermaid
 ## Интерфейс приложения
 
 ### Главное окно
-![Главное окно приложения](files.png)
+![Главное окно приложения](main_window.png)
 
 *Рисунок 1: Основной интерфейс с настройками детекции*
 
-### Настройки модели
-![Настройки YOLO](files.png)
+### Настройки модели  
+![Настройки YOLO](settings_yolo.png)
 
 *Рисунок 2: Выбор модели и параметров детекции*
-```
+
+## Обработка ошибок
 
 ```mermaid
 flowchart TD
